@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NioFileApiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-15T15:03:30" hostname="PARAG" time="0.026">
+  <properties/>
+  <testcase name="givenPathWhenRight_ShouldPass" classname="NioFileApiTest" time="0.026"/>
+  <system-out><![CDATA[C:\Users\Parag\tempPlayGround\temp1
+C:\Users\Parag\tempPlayGround\temp2
+C:\Users\Parag\tempPlayGround\temp3
+C:\Users\Parag\tempPlayGround\temp4
+C:\Users\Parag\tempPlayGround\temp5
+C:\Users\Parag\tempPlayGround\temp6
+C:\Users\Parag\tempPlayGround\temp7
+C:\Users\Parag\tempPlayGround\temp8
+C:\Users\Parag\tempPlayGround\temp9
+C:\Users\Parag\tempPlayGround\temp1
+C:\Users\Parag\tempPlayGround\temp2
+C:\Users\Parag\tempPlayGround\temp3
+C:\Users\Parag\tempPlayGround\temp4
+C:\Users\Parag\tempPlayGround\temp5
+C:\Users\Parag\tempPlayGround\temp6
+C:\Users\Parag\tempPlayGround\temp7
+C:\Users\Parag\tempPlayGround\temp8
+C:\Users\Parag\tempPlayGround\temp9
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
