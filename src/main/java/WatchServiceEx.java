@@ -3,16 +3,14 @@ import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.HashMap;
 import java.util.Map;
-
-import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
-import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;
+import static java.nio.file.StandardWatchEventKinds.*;
 
 public class WatchServiceEx {
-    private final WatchServiceEx watcher;
+    private final WatchService watcher;
     private final Map<WatchKey,Path> dirWatchers;
 
-    WatchServiceEx(Path dir) throws IOException {
-        this.watcher = (WatchServiceEx) FileSystems.getDefault().newWatchService();
+    WatchServiceEx(Path dir) throws IOException{
+        this.watcher = FileSystems.getDefault().newWatchService();
         this.dirWatchers =new HashMap<WatchKey,Path>();
         scanAndRegisterDirectories(dir);
     }
@@ -64,8 +62,5 @@ public class WatchServiceEx {
                 if (dirWatchers.isEmpty())break;
             }
         }
-    }
-
-    private WatchKey take() {
     }
 }
